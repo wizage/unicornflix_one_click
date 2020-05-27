@@ -1,0 +1,20 @@
+{
+    "shared": {
+        "resourceName": "app"
+    },
+    "template": {
+        "name": "Amplify_Video_Accelerated_Ott_Hls_Ts_Avc_Aac.json"
+    },
+    "contentDeliveryNetwork": {
+        "enableDistribution": false
+    },
+    "cms": {
+        "overrideSchema": true,
+        "editAPI": true
+    },
+    "parameters": {
+        "authRoleName": {
+            "Ref": "AuthRoleName"
+        }
+    }
+}
